@@ -318,3 +318,43 @@ body {
     width: 50%;
   }
 }
+
+
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+  height: 5vmin;
+  width: 50vmin;
+  margin: 0 auto;
+}
+
+#undo{
+  background-color: rgba(240, 13, 145, 0.32);
+  border: 2px solid rgb(134, 2, 134);
+  border-radius: 10px;
+  width: 80px;
+  font-family: Eina01,sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  margin-bottom:5px ;
+
+}
+
+#redo{
+  background-color: rgba(240, 13, 145, 0.32);
+  border: 2px solid rgb(134, 2, 134);
+  border-radius: 10px;
+  width: 80px;
+  font-family: Eina01,sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  margin-bottom:5px ;
+
+}
